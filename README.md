@@ -1,21 +1,11 @@
 # ProyectoSpring
 Daremos inicio al proyecto spring, donde veremos varios conceptos
-Cómo funciona una Webapp?
- ¿Cómo funciona un servidor? (Google Cloud)
-¿Cómo registrar un dominio?
-Instalación de IntelliJ Idea
  Crear un proyecto con Spring Framework
-¿Qué es Maven y qué es Gradle?
 Instalación de Maven
- Instalación de JDK
  Estructura del Proyecto
-
  Solución de errores típicos al compilar
 Creación de Controladores
 Template para el Panel de Administración
-¿Qué es JSON y XML?
- Estructura de una URL
-¿Qué son los Métodos HTTP?
 Arquitectura MVC
  ¿Qué es REST?
 ¿Qué es un Framework?
