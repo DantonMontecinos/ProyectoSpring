@@ -31,6 +31,14 @@ public class Usuario {
     @Getter @Setter @Column(name="id")
     private Long id;
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public String getEmail() {
         return email;
     }
