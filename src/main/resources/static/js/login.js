@@ -1,13 +1,12 @@
 $(document).ready(function() {
-  //on ready
+  // Código que se ejecuta cuando el documento está listo
 });
 
 async function iniciarSesion() {
-  let datos={};
+  let datos = {};
 
-  datos.email= document.getElementById('txtEmail').value;
-  datos.password= document.getElementById('txtPassword').value;
-
+  datos.email = document.getElementById('txtEmail').value;
+  datos.password = document.getElementById('txtPassword').value;
 
   const request = await fetch('api/login', {
     method: 'POST',
@@ -18,6 +17,12 @@ async function iniciarSesion() {
     body: JSON.stringify(datos)
   });
 
-const respuesta = await request.json();
+  const respuesta = await request.text();
 
+  if (respuesta == 'OK') {
+    window.location.href = 'usuarios.html';
+  } else {
+    alert("Credenciales incorrectas. Intenta nuevamente.");
+  }
 }
+

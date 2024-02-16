@@ -24,7 +24,6 @@ async function RegistrarUsuario() {
     },
     body: JSON.stringify(datos)
   });
-
-
-
+    alert("La cuenat fue creada con exito")
+    window.location.href = 'login.html';
 }
